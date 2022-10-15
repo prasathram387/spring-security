@@ -1,0 +1,13 @@
+server.port: 2024
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/userdb
+    username: root
+    password: Ram@i2it
+  jpa:
+    hibernate.ddl-auto: update
+
+    database-platform=org:
+      hibernate:
+        dialect: MySQL5InnoDBDialect
